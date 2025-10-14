@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node --watch index.js"
+    "dev": "node --watch index.js",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "axios": "^1.12.2",
+    "express": "^5.1.0",
+    "uuid": "^13.0.0"
   }
 }
